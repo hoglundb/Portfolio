@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brian Hoglund</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+
+  body{
+
+  background:#7A7670;
+  color:white;
+  }
+
+  .navbar{
+    background:#4B467C;
+    color:white!important;
+  }
+  .navbar-nav > .active > a {
+    color: white!important;
+    background-color: #665EAE!important;
+    font-weight: bold;
+  }
+
+  .navbarHeader{
+    font-size:23pt;
+    margin-right:30px;;
+  }
+  .navbarItem{
+    font-size:16pt;
+  }
+  .navText{
+    color:white!important;
+  }
+  .itemTitle{
+    font-size: 20pt;
+    font-weight: bold;
+  }
+
+  .itemDescription{
+    font-size:14pt;
+  }
+  .itemLink{
+      font-size:14pt;
+  }
+  .item{
+    margin-bottom: 70px;
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 100vh; /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  </style>
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-default" style="padding-left:40px">
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <a class="navbar-brand navbarHeader navText" href="#">Brian Hoglund</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class=" navbarItem "><a class="navText"  href="portfolio.php">Portfolio</a></li>
+        <li class=" navbarItem"><a class="navText" href="resume.php">Resume</a></li>
+        <li class="navbarItem active"><a class="navText"  href="about.php">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="row">
+    <div class="column" style=" width:25%">
+       <img src="/img/profilePic.jpg" alt="TE Network Visualization" style="width:90%;margin-left:40px;margin:20px;border-radius:10px">
+    </div>
+    <div class="column" style=" width:60%">
+      <h2 style='font-size:26pt'>Brian Hoglund</h2>
+      <p style="font-size:18pt">I am a software developer with a passion for computer graphics and game developement. I am part of a small indie dev team and we are currently working
+        on our first game title, which we hope to release on <a style="color:lightBlue" href="https://store.steampowered.com/">Steam</a> sometime in the next year or so.
+       I have also recently taken up a interest in augmented and mixed reality, and I am exited to see the transformation that this technology is making on the engineering industry.</p>
+
+       <p style="font-size:18pt">I earned bachelor's degrees in Mathematics and Computer Science form Oregon State University in 2016 and 2020 respectivly. I started out my professional career as a mathematics instructor,
+         but my love for these subjects ultimately lead me to pursue a career in software development. In addition to my work as an indie game developer, I am currently employed as a civilan for the <a style="color:lightBlue" href="https://www.navsea.navy.mil/Home/Warfare-Centers/">Naval Undersea Warefare Center</a> where I am privileged to have the
+       opportunity to use my skills to support the Warefighter.</p>
+    </div>
+  </div>
+
+  </div>
+</div>
+</body>
