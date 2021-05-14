@@ -1,1 +1,154 @@
-<h> my home page</h>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brian Hoglund</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+body{
+
+background:#7A7670;
+color:white;
+}
+
+.navbar{
+  background:#4B467C;
+  color:white!important;
+}
+.navbar-nav > .active > a {
+  color: white!important;
+  background-color: #665EAE!important;
+  font-weight: bold;
+}
+
+.navbarHeader{
+  font-size:23pt;
+  margin-right:30px;;
+}
+.navbarItem{
+  font-size:16pt;
+}
+.navText{
+  color:white!important;
+}
+.itemTitle{
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.itemDescription{
+  font-size:16pt;
+}
+.itemLink{
+    font-size:16pt;
+}
+.item{
+  margin-bottom: 70px;
+}
+
+a{
+  color:lightBlue;
+}
+</style>
+
+<body>
+
+  <nav class="navbar navbar-default" style="padding-left:40px">
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <a class="navbar-brand navbarHeader navText" href="#">Brian Hoglund</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class=" navbarItem active"><a class="navText"  href="portfolio.php">Portfolio</a></li>
+        <li class=" navbarItem"><a class="navText" href="resume.php">Resume</a></li>
+        <li class="navbarItem"><a class="navText"  href="about.php">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container" style="margin-top:50px">
+
+<div style="font-size:27pt; font-weight:bold">Brian Hoglund's Portfolio</div>
+<div class ="itemDescription" style="margin-bottom:80px">
+ Here is a compilation of some of the computer graphics projects and games that I have completed. These projects feature the use of a wide range of graphics technologies including Open GL, Unity, C#, C++ and HTML/Javascript.
+
+ </div>
+
+  <div class="item">
+  <div class="itemTitle">
+    Flight Simulation Multiplayer Game (Unity)
+  </div>
+  <div class="itemDescription">
+    A multiplayer flight simulation game that I made for my senior project at Oregon State University. This game was made with the Unity Game Engine and I collaborated with Wes Bakane and Joe Kirkhan.
+    We build this game over a 12 Week period and implemented realistic physics/ballistics as well as a local multiplayer feature.
+   </div>
+    <iframe width="600" height="500" src=" https://www.youtube.com/embed/O9T3pA5788o" frameborder="0" allowfullscreen></iframe>
+   <div class="itemLink">You can download the game here: <a href = "https://hoglundb.itch.io/flight-sim-multiplayer-game">https://hoglundb.itch.io/flight-sim-multiplayer-game</a></div>
+ </div>
+
+ <div class="item">
+ <div class="itemTitle">
+   Ocean Shader Program (Unity URP)
+ </div>
+ <div class="itemDescription">
+   A small shader program that I wrote using Unity's Univeral Render Pipeline. It uses a simple vertex shader to simulate the motion of the waves and a fragment shader to animate the surface of the water.
+   This is a prototype for a game I am currently working on, with the goal of eventually simulating boyancy physics.
+  </div>
+  <iframe width="600" height="500" src="https://www.youtube.com/embed/M9fkTZs1SQI" frameborder="0" allowfullscreen></iframe>
+  <div class="itemLink">You can view a Web GL build of the simulation here: <a href = "https://simmer.io/@Brian_Hoglund/oceansimtest">https://simmer.io/@Brian_Hoglund/oceansimtest</a></div>
+
+</div>
+
+<div class="item">
+<div class="itemTitle">
+  Zombie Survival Game (Unity)
+</div>
+<div class="itemDescription">
+  This is a game I developed in colaboration with Wes Bakane for the <a href="https://ldjam.com/">Ludum Dare</a>  48 2021 Game Jam. We built this game over a 2 day period using the Unity Game Engine.
+  The goal of the game is to use your archery skills to survive the waves of zombies and to make your way to the bottom of the pit, where you will find the zombie cure.
+ </div>
+  <iframe width="600" height="500" src=" https://www.youtube.com/embed/nZiOnjhkD2Y" frameborder="0" allowfullscreen></iframe>
+
+ <div class="itemLink">You can download the game here: <a href = "https://bakanew.itch.io/the-depth-of-death">https://bakanew.itch.io/the-depth-of-death</a></div>
+</div>
+
+
+
+<div class="item">
+<div class="itemTitle">
+  Simple Zombie Game (Open GL)
+</div>
+<div class="itemDescription">
+  This was a simple c++ zombie game that I wrote using Open GL and GLSL. The goal of the game is to survice waves of zombies by punching them.
+ </div>
+ <iframe width="600" height="500" src="https://www.youtube.com/embed/jhPQMH1CWiE" frameborder="0" allowfullscreen></iframe>
+ <div class="itemLink">You can view the source code for this project here <a href = "https://github.com/hoglundb/OpenGLZombieGame">https://github.com/hoglundb/OpenGLZombieGame</a></div>
+</div>
+
+
+
+<div class="item">
+<div class="itemTitle">
+  Network Visualization (Javascript/HTML5)
+</div>
+<div class="itemDescription">
+  A web application that I developed as part of a research project with TeachEngineering.org. It allows users to view the <a href="https://www.nextgenscience.org/"> Next Generation Science Standards</a> (NGSS) in a network format. This application
+  allows K-12 curriculumn providers to visually analyze how their content aligns with the NGSS.
+ </div>
+ <div class="itemImage">
+ <img src="img/te.JPG" alt="TE Network Visualization" style="width:70%">
+ </div>
+ <div class="itemLink">You can view the website here: <a href = "https://www.teachengineering.org/ngss_visualization">https://www.teachengineering.org/ngss_visualization</a></div>
+</div>
+
+</div>
+
+</body>
+</html>
+
