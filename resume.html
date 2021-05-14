@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brian Hoglund</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+body{
+
+background:#7A7670;
+color:white;
+}
+
+.navbar{
+  background:#4B467C;
+  color:white!important;
+}
+.navbar-nav > .active > a {
+  color: white!important;
+  background-color: #665EAE!important;
+  font-weight: bold;
+}
+
+.navbarHeader{
+  font-size:23pt;
+  margin-right:30px;;
+}
+.navbarItem{
+  font-size:16pt;
+}
+.navText{
+  color:white!important;
+}
+.itemTitle{
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.itemDescription{
+  font-size:14pt;
+}
+.itemLink{
+    font-size:14pt;
+}
+.item{
+  margin-bottom: 70px;
+}
+</style>
+
+<body>
+
+  <nav class="navbar navbar-default" style="padding-left:40px">
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <a class="navbar-brand navbarHeader navText" href="#">Brian Hoglund</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class=" navbarItem "><a class="navText"  href="portfolio.php">Portfolio</a></li>
+        <li class=" navbarItem active"><a class="navText" href="resume.php">Resume</a></li>
+        <li class="navbarItem"><a class="navText"  href="about.php">About</a></li>
+      </ul>
+    </div>
+  </nav>
+<object data="/resume.pdf" type="application/pdf" style="width:100%; height:100vh">
+    <iframe src="/resume.pdf"></iframe>
+</object>
+</body>
